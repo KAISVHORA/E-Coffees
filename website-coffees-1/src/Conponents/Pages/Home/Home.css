@@ -1,0 +1,420 @@
+/* Start-Home */
+.background-one{
+    display: flex;
+    align-items: center;
+    background:linear-gradient(to right, #582104de 30%, rgba(255, 255, 255, 0) 80%), url(/src/assets/Cup-Coffees.jpg);
+    max-width:100%;
+    height:450px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+.background-content{
+    text-align: start;
+    margin:0 0 0 40px;
+}
+.background-content .button-primary{
+    background-color:var(--text-color-white) !important;
+    color: var(--text-color-brown) !important;
+      cursor: pointer;
+      margin:20px 0 0 0;
+}
+.background-content .button-primary:hover{
+        background-color:transparent!important;
+    color:var(--text-color-white)!important;
+    border: 2px groove white;
+}
+.background-content h1{
+    color:var(--text-color-white);
+    font-size: 60px;
+    line-height: 5rem;
+}
+.background-one span{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: brown;
+}
+/* End-Home */
+
+/*Start-About*/
+.About h1,p{
+    text-align: center;
+}
+.About h1{
+    color:var(--text-color-brown);
+    font-size: 35px;
+    font-weight: var(--font-w-600);
+    margin:0 0 5px 0;
+}
+.About p {
+    color:var(--background-color-p);
+}
+.About{
+    background-color: var(--background-color);
+    padding:40px 0 40px 0;
+    position: relative;
+}
+.About .left-image{
+    max-width: 400px;
+    margin-left: 50px;
+}
+.About .left-image img{
+    width:100%;
+    border-radius: 10px;
+}
+.About .right-content .title-about, .text-about{
+    text-align: start;
+}
+.right-content .title-about {
+    font-size: 35px;
+    margin:10px 0 10px 0;
+}
+.right-content p.text-about{
+    color: var(--background-color-p);
+    line-height: 22px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.About-bg{
+    margin:50px;
+}
+ /*End-About*/
+
+ /* Tea-card-bg{ */
+.Tea-card-bg{
+    /* background-color: var(--background-color-style); */
+    background-image:linear-gradient(#77310bb5), url(/src/assets/delicious-organic-coffee-still-life\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    padding:40px 0;
+    display: flex;
+    justify-content: center;
+}
+.Tea-Card{
+    text-align: center;
+    background-color: var(--background-color);
+    padding:30px 25px;
+    border-radius: 30px;
+    max-width:20%;
+}
+ .Tea-Card img{
+    width:50px;
+ }
+.Tea-Card h3{
+    color: var(--text-color-brown);
+    font-size: 20px;
+    font-weight: var(--font-w-600);
+    margin:5px 0;
+}
+.Tea-Card .text-cards{
+    font-size: 15px;
+    color:var(--background-color-black);
+}
+/* End-Tea-card-bg */
+
+/* Start-About-Details */
+.About-Details{
+    margin:25px 30px;
+}
+.background-About-One{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(165, 42, 42, 0.273));
+    border-radius:0 20px 20px 0;
+}.background-About-Two{
+    background:linear-gradient(to left, rgba(0, 0, 0, 0), rgba(165, 42, 42, 0.273));
+     border-radius:20px 0 0 20px;
+     margin-top:10px;
+}
+.About-Details .About-img img{
+    width:300px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border:2px solid rgb(249, 110, 110);
+}
+.About-Content{
+    padding:0 60px;
+}
+.About-Content p{
+    max-width:500px;
+    text-align: start;
+    margin:15px 0;
+    line-height: 20px;
+}
+/* End-About-Details */
+
+/* Coffee-Offer */
+.Coffee-Offer{
+    position: relative;
+    background-image:linear-gradient(rgba(157, 39, 0, 0.858),rgba(255, 255, 255, 0.346)),url(/src/assets/organic-coffee-beans-still-life.jpg);
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.Coffee-Offer h1{
+    z-index: 999;
+    background-color: white;
+    padding:10px 20px;
+    border-radius:20px;
+    font-size: 50px;
+    border:5px dotted var(--text-color-brown);
+}
+.offee-left-1{
+    position: absolute;
+    background-color: var(--text-color-brown);
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:5px solid white;
+}
+.offee-left-1:after{
+    content: '';
+    position: absolute;
+       background-color: var(--text-color-white);
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+/* End-Coffee-Offer */
+
+
+/* Start-Menus */
+.Menus{
+    margin:50px 0;
+}
+.M-Cards{
+    position: relative;
+    background-color:var(--text-color-white);
+    width:200px;
+    height:100%;
+    box-shadow: rgba(117, 61, 1, 0.351) 0px 3px 6px, rgba(117, 61, 1, 0.351) 0px 3px 6px;
+    border-radius: 20px;
+    text-align: center;
+    padding:0 0 15px 0;
+}
+.Menus-Img{
+    position: relative;
+}
+.menus-heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right:15px;
+    top:20px;
+    font-size: 18px;
+    width:30px;
+    height: 30px;
+    border: 1px solid var(--text-color-brown);
+    border-radius: 50%;
+    color:var(--text-color-brown);
+    cursor: pointer;
+}
+.Menus-Img img{
+    width:100%;
+    height: 160px;
+    object-fit: cover;
+    border: 1px solid var(--text-color-brown);
+    border-radius: 20px 20px 0 0;
+}
+.Menus-Content{
+   color: var(--text-color-brown);
+   text-align: start;
+}
+.Menus-Content .M-Title{
+    font-size: 17px;
+}
+.Menus-Content .M-Text{
+    text-align: start;
+    font-size: 12px;
+    margin:3px 0;
+}
+.Menus-Order{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px;
+    color: var(--text-color-brown);
+}
+.Menus-Caption{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin:50px 0;
+}
+.Menus-Caption h1{
+    color: var(--text-color-brown);
+}
+.Menus-Caption h1::after{
+    content: '';
+    position: absolute;
+    width:300px;
+    height:3px;
+    top:45px;
+    left:180px;
+    background-color:var(--text-color-brown);
+}
+/* End-Menus */
+
+/* Start-Offers-Coffees */
+.Offers-Coffees{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(96, 26, 0, 0.802),rgba(32, 31, 31, 0.501)),url(/src/assets/Cup.jpeg);
+    width:100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin:60px 0;
+}
+.Offers-Coffees .Title-Offers{
+    font-size: 50px;
+    font-weight: var(--font-w-500);
+    color:transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+/* End-Offers-Coffees */
+
+/* Start-Contact */
+.Contact{
+    max-width:800px;
+    width:100%;
+    margin:auto;
+    padding:10px 0px;
+    border-radius:20px;
+}
+form .input-box{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+form .contact-input .Field{
+    width:100%;
+    padding:18px 12px;
+    border-radius: 10px;
+    border: 2px solid var(--background-color-style);
+    outline: none;
+    margin:10px 0;
+}
+::placeholder{
+    font-size: 15px;
+    color:var(--background-color-style);
+}
+
+.send-contact{
+      margin: 25px 0;
+}
+/* End-Contact */
+
+
+/* @media mobile External index-css */
+
+@media screen and (max-width:768px) {
+    /* Start-Home */
+    .background-one{
+    background:linear-gradient(120deg, #582104de 65%, rgba(255, 255, 255, 0.537) 60%), url(/src/assets/Cup-Coffees.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.background-content{
+    text-align: center;
+    margin:0 0 0 40px;
+}
+.background-content h1{
+    font-size: 55px;
+    line-height: 4rem;
+}
+.About{
+    background-color: var(--background-color);
+    padding:40px 20px 40px 20px;
+}
+.right-content{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.right-content .text-about{
+    text-align:center;
+    margin: 15px 0 ;
+}
+.Tea-card-bg{
+    margin:50px 0;
+}
+.Tea-Card{
+    text-align: center;
+    background-color: var(--background-color);
+    padding:50px;
+    border-radius: 30px;
+    max-width: 80%;
+}
+/* End-Home */
+
+/* About-Details */
+.About-Details{
+    margin:0px;
+}
+.About-Content{
+    padding:0 0px 50px 0px;
+    text-align: center;
+}
+.About-Content p{
+    text-align: center;
+    margin:20px 0;
+}
+.About .left-image{
+      margin: 0;
+}
+.background-About-One,.background-About-Two{
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(165, 42, 42, 0.273));
+}.background-About-Two{
+    flex-direction: column-reverse;
+}
+/* End-About-Details */
+/* start-Menus */
+.M-Cards{
+    width:300px;
+    height:100%;
+}
+.Menus-Img img{
+    height:200px;
+}
+.Menus-Caption h1::after{
+    width:250px;
+    top:45px;
+    left:80px;
+}
+/* End-Menus */
+/* Start-Coffee-Offer */
+.Coffee-Offer{
+    background-image:linear-gradient(rgba(157, 39, 0, 0.858),rgba(255, 255, 255, 0.346)),url(/src/assets/organic-coffee-beans-still-life.jpg);
+    width:100%;
+    height:600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Coffee-Offer h1{
+    font-size: 45px;
+}
+/* End-Coffee-Offer */
+
+/* Contact */
+form .input-box{
+    display:block;
+}
+.Contact{
+    padding:10px 20px;
+}
+
+}

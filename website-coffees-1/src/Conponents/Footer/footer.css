@@ -1,0 +1,113 @@
+
+/* Footer-bg */
+.Footer-bg{
+    background:linear-gradient(#66361C), url(/src/assets/coffee-Worlds.jpg);
+    width:100%;
+    height:100%;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    text-align: center;
+    padding:50px 0;
+}
+.nav-footer{
+    max-width:450px;
+    margin:auto;
+    background-color:var(--background-color-white);
+    border:2px solid var(--background-color-white);
+    padding:20px 0;
+    border-radius: 20px;
+}
+.nav-menus-footer{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.nav-menus-footer li a{
+    font-size:15px;
+    font-weight: 600;
+    cursor:pointer;
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: var(--text-color-brown);
+    transition: all 0.2s ease-in;
+}
+.nav-menus-footer li a:hover{
+    background-color: var(--background-color-style);
+    color:var(--text-color-white);
+}
+.Footer-bg .nav-logo-coffee p{
+    color: var(--text-color-white);
+    margin:0 10px;
+}
+.Footer-bg h2{
+    font-size: 22px;
+    font-weight: 700;
+    color:var(--text-color-brown);
+    margin:10px 0;
+    color:var(--text-color-white);
+}
+.Footer-bg .text-footer-p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+      color:var(--text-color-white);
+}
+.Footer-Address{
+    margin:10px 0 10px 0;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color:var(--text-color-white);
+}
+.Footer-Address a{
+    font-style: italic;
+    color:var(--text-color-white);
+    text-decoration:underline;
+    letter-spacing: 2px;
+}
+.footer-copy{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 13px;
+    background-color: var(--background-color);
+    color:var(--text-color-brown);
+    padding:15px 25px;
+    font-weight: 600;
+}
+.icons-footer-c{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+}
+.icon-i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color-style);
+    border-radius: 50%;
+    padding:6px;
+    font-size: 15px;
+    color:var(--text-color-white);
+}
+@media screen and (max-width:768px) {
+.Footer-bg{
+    padding:50px 10px;
+}
+.nav-footer{
+    max-width:100%;
+}
+.nav-menus-footer{
+    flex-wrap: wrap;
+}
+.footer-copy{
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:15px;
+}
+}
+/* End-Footer-bg */

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --background-color: #FFE8CE;
+    --background-color-style:#66361C;
+    --background-color-hd:#66361C;
+    --background-color-p:#66361C;
+    --background-color-red:red;
+    --backgorund-color-black:black;
+    --background-color-white:#FFFFFD;
+
+    /* Text-content */
+    --text-color-white:#FFFFFD;
+    --text-color-brown:#66361C;
+    --text-color-black:black;
+    
+    /* Button */
+    --Button-primay:#7A4D38;
+    --Button-Secondary:#FFFFFD;
+
+    /* Font-weight */
+    --font-w-100:100;
+    --font-w-200:200;
+    --font-w-300:300;
+    --font-w-400:400;
+    --font-w-500:500;
+    --font-w-600:600;
+    --font-w-700:700;
+    --font-w-800:800;
+    --font-w-900:900;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style-type:none;
+    text-decoration:none;
+}
+
+body{
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+}
+
+.container-full{
+    position: relative;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* button */
+.button-primary{
+    width:100px;
+    height:35px;
+    padding:15px 5px;
+    background-color:var(--background-color-style) !important;
+    color: var(--text-color-white) !important;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius:20px;
+    transition: all 0.3s ease-in;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:5px;
+}
+
+.button-primary:hover{
+    border: 2px solid var(--background-color-style);
+    background-color: var(--Button-Secondary)!important;
+    color:var(--text-color-brown)!important;
+}
+
+.button-primary a{
+    color: var(--text-color-white) !important;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+}
+
+.button-primary:hover a{
+      color:var(--text-color-brown)!important;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+}
+
+.col-1{
+  flex: 1;
+}
+
+/* Scroll-top */
+.Scroll-top{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width:50px;
+    height:50px;
+    border: 1px solid var(--background-color);
+    border-radius:50%;
+    font-size: 22px;
+    color:var(--background-color);
+    cursor:pointer;
+    z-index: 999;
+    position:absolute;
+    bottom:115px;
+    right:25px;
+    transition:all 0.5s ease-in 0s;
+}
+
+.Scroll-top:hover{
+    background-color: var(--background-color);
+    color:var(--background-color-style);
+    box-shadow: 0px 0px 5px 0px white;
+}
+/* End-Scroll-top */
+
+/* login-up */
+.login-up{
+    margin:50px 0;
+}
+/* End-login-up */
+
+/* End-Scroll-top */
+@media screen and (max-width:768px) {
+.row{
+    flex-direction: column;
+}
+.Scroll-top{
+    top:50px;
+    right:30px;
+}
+}
+
+/* .login-up & Signup*/
+.login-up,.Signup-new{
+    width:100%;
+    height:100%;
+    background-color: #f5ac8a;
+    background: linear-gradient(200deg,#ffe8cec9,#66361cb5 ), url(/src/assets/cupgreen.png);
+    background-position: center;
+    background-size: cover;
+    padding:50px 0;
+}
+.Login,.Signup{
+    max-width:500px;
+    /* background-color:var(--background-color); */
+    border: 3px solid var(--background-color-style);
+    backdrop-filter: blur(10px);
+    margin:auto;
+    padding:30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.Signup-new{
+    margin:60px 0;
+}
+.Login input,.Signup input{
+    width:100%;
+    padding:18px 12px;
+    border-radius: 10px;
+    border: 2px solid var(--background-color-style);
+    outline: none;
+    margin:10px 0;
+}
+::placeholder{
+    font-size: 15px;
+    color:var(--background-color-style);
+}
+form h1{
+    font-size: 30px;
+    font-weight: var(--font-w-600);
+    color:var(--background-color-style);
+    margin-bottom: 25px;
+}
+.forget a{
+    color:blue;
+    font-size: 14px;
+    font-weight: var(--font-w-600);
+}
+form .button-primary{
+    width:100%;
+    margin-top:20px;
+    padding:20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.account-signup {
+    margin:20px 0;
+    color:var(--text-color-black);
+}
+/* End-login-up & Signup*/
