@@ -2,6 +2,7 @@ import './Menus.css'
 import { GrFormSubtract } from "react-icons/gr";
 import { GrAdd } from "react-icons/gr";
 import { RiHeart3Line } from "react-icons/ri";
+import { asset } from '../../../assets';
 
 
 const Menus = () =>{
@@ -22,7 +23,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/Coffee-white.png' alt='M-Tea'></img>
+                            <img src={asset('Coffee-white.png')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -42,7 +43,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/Americano-with-Egg.jpg' alt='M-Tea'></img>
+                            <img src={asset('Americano-with-Egg.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -62,7 +63,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/Americano-Coffee-1.png' alt='M-Tea'></img>
+                            <img src={asset('Americano-Coffee-1.png')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -82,7 +83,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/liana-s-U4kneR_s7bU-unsplash.jpg' alt='M-Tea'></img>
+                            <img src={asset('liana-s-U4kneR_s7bU-unsplash.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -102,7 +103,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/nathan-dumlao-nBJHO6wmRWw-unsplash.jpg' alt='M-Tea'></img>
+                            <img src={asset('nathan-dumlao-nBJHO6wmRWw-unsplash.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -122,7 +123,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/pexels-radu-nebunu-1720295-4281273.jpg' alt='M-Tea'></img>
+                            <img src={asset('pexels-radu-nebunu-1720295-4281273.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -142,7 +143,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/Screenshot_8-3-2026_183241_tse1.mm.bing.net.jpeg' alt='M-Tea'></img>
+                            <img src={asset('Screenshot_8-3-2026_183241_tse1.mm.bing.net.jpeg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -162,7 +163,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/OSK.jpeg' alt='M-Tea'></img>
+                            <img src={asset('OSK.jpeg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -182,7 +183,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/double-espresso-coffee-mug-with-cinnamon-sticks-coffee-beans-wooden-board.jpg' alt='M-Tea'></img>
+                            <img src={asset('double-espresso-coffee-mug-with-cinnamon-sticks-coffee-beans-wooden-board.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -202,7 +203,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/pexels-capturedbyaugustine-14630362.jpg' alt='M-Tea'></img>
+                            <img src={asset('pexels-capturedbyaugustine-14630362.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -222,7 +223,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/pexels-iamaddy-5723815.jpg' alt='M-Tea'></img>
+                            <img src={asset('pexels-iamaddy-5723815.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -242,7 +243,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/pexels-james-dollin-2518402-7729536.jpg' alt='M-Tea'></img>
+                            <img src={asset('pexels-james-dollin-2518402-7729536.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -262,7 +263,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/pexels-wsilvasjb-23776017.jpg' alt='M-Tea'></img>
+                            <img src={asset('pexels-wsilvasjb-23776017.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -282,7 +283,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/Coffee-white.png' alt='M-Tea'></img>
+                            <img src={asset('Coffee-white.png')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -302,7 +303,7 @@ const Menus = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/pexels-nguy-n-hi-u-1273775-5916936.jpg' alt='M-Tea'></img>
+                            <img src={asset('pexels-nguy-n-hi-u-1273775-5916936.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
