@@ -4,6 +4,7 @@ import { GrAdd } from "react-icons/gr";
 import { RiHeart3Line } from "react-icons/ri";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaLongArrowAltLeft } from "react-icons/fa";
+import { asset } from '../../../assets';
 
 
 
@@ -24,7 +25,7 @@ const Home = () =>{
                 <div className='About-bg'>
                     <div className='row'>
                         <div className='col-1 left-image'>
-                           <img src='src/assets/istockphoto-1135480773-170667a_1250x.jpg'></img>
+                           <img src={asset('istockphoto-1135480773-170667a_1250x.jpg')} alt='Coffee roasting'></img>
                         </div>
                         <div className='col-1 right-content'>
                             <h5>#About</h5>
@@ -38,22 +39,22 @@ const Home = () =>{
                 <div className='Tea-card-bg'>
                     <div className='row'>
                         <div className='col-2 Tea-Card'>
-                            <img src='src/assets/coffee.png' alt='icon-coffee'></img>
+                            <img src={asset('coffee.png')} alt='icon-coffee'></img>
                             <h3 className='title-cards'>Tea</h3>
                             <p className='text-cards'>Arabica coffee has a mild, floral and fruity taste.</p>
                         </div>
                         <div className='col-2 Tea-Card'>
-                            <img src='src/assets/tea-bag.png' alt='icon-coffee'></img>
+                            <img src={asset('tea-bag.png')} alt='icon-coffee'></img>
                             <h3 className='title-cards'>Coffeine</h3>
                             <p className='text-cards'>Arabica coffee contains less caffeine compared to robusta.</p>
                         </div>
                         <div className='col-2 Tea-Card'>
-                            <img src='src/assets/coffee (1).png' alt='icon-coffee'></img>
+                            <img src={asset('coffee (1).png')} alt='icon-coffee'></img>
                             <h3 className='title-cards'>Dark Roast</h3>
                             <p className='text-cards'>Some of the plant characteristics are intact with some roasty features.</p>
                         </div>
                         <div className='col-2 Tea-Card'>
-                            <img src='src/assets/hot.png' alt='icon-coffee'></img>
+                            <img src={asset('hot.png')} alt='icon-coffee'></img>
                             <h3 className='title-cards'>Temperature</h3>
                             <p className='text-cards'>Arabica coffee requires a temperature range of 15-24 degrees.</p>
                         </div>
@@ -63,7 +64,7 @@ const Home = () =>{
                 <div className='About-Details'>
                     <div className='row background-About-One'>
                         <div className='col-1 About-img'>
-                            <img src='src/assets/black-cup-full-coffee-beans-wooden-board.jpg' alt='tea-coffee'></img>
+                            <img src={asset('black-cup-full-coffee-beans-wooden-board.jpg')} alt='tea-coffee'></img>
                         </div>
                         <div className='col-1 About-Content'>
                             <h2>Coffee Beans </h2>
@@ -78,7 +79,7 @@ const Home = () =>{
                                        <a href='menus'>               <button className="button-primary">Menus <FaLongArrowAltRight /></button> </a>
                         </div>
                         <div className='col-1 About-img'>
-                            <img src='src/assets/close-up-coffee-beans-white-porcelain-jug-with-cookies-cup-coffee-flowers.jpg' alt='img-tea'></img>
+                            <img src={asset('close-up-coffee-beans-white-porcelain-jug-with-cookies-cup-coffee-flowers.jpg')} alt='img-tea'></img>
                         </div>
                     </div>
                 </div>
@@ -107,7 +108,7 @@ const Home = () =>{
                             <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/Coffee-white.png' alt='M-Tea'></img>
+                            <img src={asset('Coffee-white.png')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -127,7 +128,7 @@ const Home = () =>{
                                <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/Americano-with-Egg.jpg' alt='M-Tea'></img>
+                            <img src={asset('Americano-with-Egg.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -147,7 +148,7 @@ const Home = () =>{
                                <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/Americano-Coffee-1.png' alt='M-Tea'></img>
+                            <img src={asset('Americano-Coffee-1.png')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -167,7 +168,7 @@ const Home = () =>{
                                <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/OSK.jpeg' alt='M-Tea'></img>
+                            <img src={asset('OSK.jpeg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>
@@ -187,7 +188,7 @@ const Home = () =>{
                                <div className='menus-heart'>
                                  <RiHeart3Line />
                             </div>
-                            <img src='src/assets/pexels-wsilvasjb-23776017.jpg' alt='M-Tea'></img>
+                            <img src={asset('pexels-wsilvasjb-23776017.jpg')} alt='M-Tea'></img>
                         </div>
                         <div className='Menus-Order'>
                             <div className='Menus-Content'>

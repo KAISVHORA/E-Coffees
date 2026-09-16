@@ -1,4 +1,5 @@
 import './Contact.css'
+import { asset } from '../../../assets'
 
 const Contact = () => {
     return (
@@ -8,7 +9,7 @@ const Contact = () => {
             <div className='Contact-bg'>
             <div className='row'>
                 <div className='col-1 img-contacts'>
-                    <img src='src/assets/Beans-brown.jpg' alt='beans'/>
+                    <img src={asset('Beans-brown.jpg')} alt='beans'/>
                 </div>
                   <div className='col-1'>
                   <div className='Contact'>

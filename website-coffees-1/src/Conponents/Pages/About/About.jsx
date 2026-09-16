@@ -1,4 +1,5 @@
 import './About.css'
+import { asset } from '../../../assets'
 
 const About = () => {
     return (
@@ -13,7 +14,7 @@ const About = () => {
                 <div className='About-bg'>
                     <div className='row'>
                         <div className='col-1 left-image'>
-                                                       <img src='src/assets/istockphoto-1135480773-170667a_1250x.jpg'></img>
+                                                       <img src={asset('istockphoto-1135480773-170667a_1250x.jpg')} alt='Coffee roasting'></img>
                         </div>
                         <div className='col-1 right-content'>
                             <h5>#About</h5>
@@ -27,22 +28,22 @@ const About = () => {
                 <div className='Tea-card-bg'>
                     <div className='row'>
                         <div className='col-2 Tea-Card'>
-                            <img src='src/assets/coffee.png' alt='icon-coffee'></img>
+                            <img src={asset('coffee.png')} alt='icon-coffee'></img>
                             <h3 className='title-cards'>Tea</h3>
                             <p className='text-cards'>Arabica coffee has a mild, floral and fruity taste.</p>
                         </div>
                         <div className='col-2 Tea-Card'>
-                            <img src='src/assets/tea-bag.png' alt='icon-coffee'></img>
+                            <img src={asset('tea-bag.png')} alt='icon-coffee'></img>
                             <h3 className='title-cards'>Coffeine</h3>
                             <p className='text-cards'>Arabica coffee contains less caffeine compared to robusta.</p>
                         </div>
                         <div className='col-2 Tea-Card'>
-                            <img src='src/assets/coffee (1).png' alt='icon-coffee'></img>
+                            <img src={asset('coffee (1).png')} alt='icon-coffee'></img>
                             <h3 className='title-cards'>Dark Roast</h3>
                             <p className='text-cards'>Some of the plant characteristics are intact with some roasty features.</p>
                         </div>
                         <div className='col-2 Tea-Card'>
-                            <img src='src/assets/hot.png' alt='icon-coffee'></img>
+                            <img src={asset('hot.png')} alt='icon-coffee'></img>
                             <h3 className='title-cards'>Temperature</h3>
                             <p className='text-cards'>Arabica coffee requires a temperature range of 15-24 degrees.</p>
                         </div>
