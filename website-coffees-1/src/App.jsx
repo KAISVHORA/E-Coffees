@@ -1,4 +1,4 @@
-import { Route, Router, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Navber from './Conponents/Navber/Navber.jsx'
 import Home from './Conponents/Pages/Home/Home.jsx'
 import Menus from './Conponents/Pages/Menus/Menus.jsx'
@@ -18,7 +18,6 @@ function App() {
       <Route path='menus' element={<Menus/>} ></Route>
       <Route path='about' element={<About/>} ></Route>
       <Route path='contact' element={<Contact/>} ></Route>
-      <Route path='signup' element={<Signup/>} ></Route>
       <Route path='login' element={<Login/>} ></Route>
       <Route path='signup' element={<Signup/>} ></Route>
     </Routes>
